@@ -7,7 +7,7 @@
 
     <EditText
         android:id="@+id/name"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="48dp"
         android:layout_marginStart="61dp"
         android:layout_marginLeft="61dp"
@@ -26,7 +26,7 @@
 
     <EditText
         android:id="@+id/phone"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="48dp"
         android:layout_marginStart="61dp"
         android:layout_marginLeft="61dp"
@@ -45,7 +45,7 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="48dp"
         android:layout_marginStart="61dp"
         android:layout_marginLeft="61dp"
@@ -64,13 +64,13 @@
 
     <Button
         android:id="@+id/btnSave"
-        android:layout_width="255dp"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:text="Сохранить"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.392" />
+        app:layout_constraintVertical_bias="0.976" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
